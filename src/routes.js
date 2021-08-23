@@ -8,7 +8,7 @@ export default () => {
 
   return (
     <Switch>
-      <Route exact path="/" component="/Home">
+      <Route exact path="/" component="/Home" basename='portfolio'>
         <Home/>
       </Route>
       <Route exact path="/projects">

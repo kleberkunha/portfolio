@@ -3,32 +3,42 @@
     font-size: 40px !important;
   }
   .main-container{
-    height: 700px !important;
+    height: 812px !important;
   }
   .title-name{
     margin-top: -250px;
   }
   .title-junior{
-    margin-top: -200px;
+    margin-top: -175px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .title-junior{
+    font-size: 40px !important;
+  }
+  .main-container{
+    height: 812px !important;
+  }
+  .title-name{
+    margin-top: -250px;
+  }
+  .title-junior{
+    margin-top: -175px;
   }
 }
 body{
   color: white;
-  font-family: "cursive";
 }
-
-
 .main-container{
   border: 1px solid black;
   box-shadow: 0px 0px 5px 5px black;
   background-color: rgba(0, 0, 0, 0.50);
   padding: 0px;
 }
-
 .content-typewriter{
   display: flex;
   align-items: flex-end;
-  height: 55%;
+  height: 30%;
 }
 /*########################################################################*/
 /*########################################################################*/
@@ -89,19 +99,10 @@ body{
   margin-top: 25px;
   cursor: pointer;
 }
+.email{
+  cursor:pointer;
+}
 
-.content-contact{
-display: flex;
-justify-content: flex-end;
-}
-.content-contact ul li{
-  list-style: none;
-  text-align: center;
-}
-.location{
-  background-image: url("../../images/placeholder.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 40px;
-  height: 40px;
+.email:hover{
+  color: rgb(76, 76, 241);
 }

@@ -1,8 +1,8 @@
 import React from 'react';
 import 'react-circular-progressbar/dist/styles.css';
-import './CircularProgress.css';
 import './style.css';
 import './script';
+import {Link} from 'react-router-dom';
 import Typewriter from "typewriter-effect";
 const Home = () => {
   return (
@@ -39,6 +39,9 @@ const Home = () => {
           </div>
           <div className="logo-cv"></div>
         </div>
+        <p className="text-center">Do not hesitate to contact me!</p>
+        <p className="email text-center text-primary">E-mail: <a onClick={() => window.open("https://mail.google.com/mail/u/0/#inbox")}>hello.kleberkunha@gmail.com</a></p>
+        <p className="text-center">Response time : 30min</p>
       </div>
     </>
   );

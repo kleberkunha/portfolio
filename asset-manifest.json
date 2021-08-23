@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6ab4460f.chunk.css",
+    "main.css": "/portfolio/static/css/main.69fbb5e3.chunk.css",
     "main.js": "/portfolio/static/js/main.e804e466.chunk.js",
     "main.js.map": "/portfolio/static/js/main.e804e466.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.a9f76519.js",
@@ -10,16 +10,16 @@
     "static/js/2.142dafa7.chunk.js.map": "/portfolio/static/js/2.142dafa7.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/2.a5226b0e.chunk.css.map": "/portfolio/static/css/2.a5226b0e.chunk.css.map",
-    "static/css/main.6ab4460f.chunk.css.map": "/portfolio/static/css/main.6ab4460f.chunk.css.map",
+    "static/css/main.69fbb5e3.chunk.css.map": "/portfolio/static/css/main.69fbb5e3.chunk.css.map",
     "static/js/2.142dafa7.chunk.js.LICENSE.txt": "/portfolio/static/js/2.142dafa7.chunk.js.LICENSE.txt",
-    "static/media/style.css": "/portfolio/static/media/myface.2b34b57d.jpg",
-    "static/media/project.css": "/portfolio/static/media/sportswithme.10e0b0fe.png"
+    "static/media/style.css": "/portfolio/static/media/+.89b94a3d.png",
+    "static/media/project.css": "/portfolio/static/media/sportswithme.cbaeea0a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a9f76519.js",
     "static/css/2.a5226b0e.chunk.css",
     "static/js/2.142dafa7.chunk.js",
-    "static/css/main.6ab4460f.chunk.css",
+    "static/css/main.69fbb5e3.chunk.css",
     "static/js/main.e804e466.chunk.js"
   ]
 }

@@ -62,7 +62,7 @@
 .img-42{
   width: 140px;
   height: 140px;
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaFOpscjfiLxehOGgvXzab17vfFpuYHjhkYqEo18u4q73zwsQ-neGXf4nCWnvEOPetGqs&usqp=CAU');
+  background-image: url('../../images/42.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -74,7 +74,7 @@
 .img-curso-em-video{
   width: 140px;
   height: 140px;
-  background-image: url('data:image/png;base64,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');
+  background-image: url('../../images/cursoVideo.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -86,7 +86,7 @@
 .img-thp{
   width: 140px;
   height: 140px;
-  background-image: url('https://avatars.githubusercontent.com/u/25484553?s=200&v=4');
+  background-image: url('../../images/thp.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -98,7 +98,7 @@
 .img-b7-web{
   width: 140px;
   height: 140px;
-  background-image: url('https://b7web.com.br/wp-content/uploads/2018/12/b7_logo.png');
+  background-image: url('../../images/b7web.png');
   background-position: center;
   background-size: 69%;
   background-repeat: no-repeat;
@@ -309,3 +309,16 @@
   ::-webkit-scrollbar-thumb:hover {
   background:rgb(54, 56, 58); 
   }
+/*######################################################################*/
+/*######################################################################*/
+
+.list-hobies{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.list-hobies li {
+  margin-left: 50px;
+  margin-right: 50px;
+}

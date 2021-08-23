@@ -28,29 +28,6 @@ body{
   align-items: flex-end;
   height: 55%;
 }
-
-/*PROFILE PICTURE --- START ----*/
-.container-img{
-  width: 150px;
-  height: 150px;
-  border-radius: 20px;
-  background-image: url('../../images/myface.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  box-shadow: 0px 0px 5px 5px black;
-  z-index: 1;
-}
-.profile-top-home{
-  display: flex;
-}
-
-.profile-picture-box {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-/*PROFILE PICTURE --- END ----*/
 /*########################################################################*/
 /*########################################################################*/
 /*TITLE CSS --- START ---*/
@@ -83,53 +60,5 @@ body{
   background-color: rgb(7, 247, 7);
 }
 /*TITLE CSS --- END ---*/
-/*########################################################################*/
-/*########################################################################*/
-/*LENGUAGES PORTUGUESE-ENGLISH-FRENCH  ---- START ----*/
-.item-lenguage {
-  animation-name: example;
-  animation-duration: 3s;
-  display: flex;
-  justify-content: center;
-  box-shadow: 0px 0px 5px 2px black;
-}
-@keyframes example {
-   0%   {opacity: 0; left:0px; top:0px;}
-  100%  {opacity: 1; left:200px; top:0px;}
-}
-/*LENGUAGES PORTUGUESE-ENGLISH-FRENCH  ---- END ----*/
-/*########################################################################*/
-/*########################################################################*/
-/*ABOUT ME  ---- START ----*/
-.text-bout-me {
-  box-shadow: 0px 0px 5px 2px black;
-  margin-top: 15px;
-}
-
-
-/*ABOUT ME  ---- END ----*/
-/*########################################################################*/
-/*########################################################################*/
-.main-hobbie-contact{
-  height: 253px;
-}
-/*HOBIES LIST ---- START ----*/
-.list-hobies{
-  list-style: none;
-  justify-content: space-around;
-  padding: 0;
-  margin: 0;
-}
-/*HOBIES LIST ---- END ----*/
-/*########################################################################*/
-/*########################################################################*/
-/*CONTACT ---- START ----*/
-.contact-location{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-/*CONTACT ---- START ----*/
 /*########################################################################*/
 /*########################################################################*/

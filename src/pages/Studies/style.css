@@ -11,9 +11,12 @@
   .framework-web{
     margin-top: -50px;
   }
+  .list-hobies{
+    margin-right: 30px;
+  }
   .list-hobies li {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
   }
 }
 .main-container-studies {

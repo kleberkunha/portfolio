@@ -3,7 +3,13 @@
     font-size: 40px !important;
   }
   .main-container{
-    height: 810px !important;
+    height: 650px !important;
+  }
+  .title-name{
+    margin-top: -250px;
+  }
+  .title-junior{
+    margin-top: -200px;
   }
 }
 body{

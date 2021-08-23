@@ -1,3 +1,6 @@
+*{
+  font-family: "cursive";
+}
 @media only screen and (max-width: 600px) {
   .navbar-collapse{
     width: 100%;

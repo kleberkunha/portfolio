@@ -3,13 +3,15 @@
     font-size: 40px !important;
   }
   .main-container{
-    height: 650px !important;
+    height: 700px !important;
   }
   .title-name{
     margin-top: -250px;
+    font-family: "cursive";
   }
   .title-junior{
     margin-top: -200px;
+    font-family: "cursive";
   }
 }
 body{

@@ -8,7 +8,7 @@ import { Template } from './components/MainComponents';
 const App = () => {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename='portfolio'>
         <Template>
           <Header/>
 

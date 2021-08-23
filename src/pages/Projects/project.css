@@ -1,0 +1,136 @@
+@media only screen and (max-width: 600px) {
+  .proje-2{
+    margin-top: 15px;
+  }
+  .proje-3{
+    margin-top: 15px;
+  }
+  .proje-4{
+    margin-top: 15px;
+  }
+  .icon-content{
+    margin-top: 0px;
+  }
+}
+
+
+
+.main-container-project{
+  border: 1px solid black;
+  box-shadow: 0px 0px 5px 5px black;
+  background-color: rgba(0, 0, 0, 0.29);
+}
+/*TOP PROJECTS ---- START ----*/
+.mark{
+  width: 150px;
+  height: 25px;
+  transform: rotate(-45deg);
+  margin-bottom: 100px;
+  margin-left: -30px;
+  background-color: red;
+  text-align: center;
+  font-size: 17px;
+}
+.mark-2{
+  width: 150px;
+  height: 25px;
+  transform: rotate(-45deg);
+  margin-bottom: 100px;
+  margin-left: -30px;
+  background-color: green;
+  text-align: center;
+  font-size: 17px;
+}
+.top-content-projects{
+  margin-top: 50px;
+}
+.proje-1{
+  width: 100%;
+  height: 200px;
+  background-image: url("../../images/sportswithme.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 3px solid black;
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+.proje-2{
+  width: 100%;
+  height: 200px;
+  background-image: url("../../images/catshop.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 3px solid black;
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+.proje-3{
+  width: 100%;
+  height: 200px;
+  background-image: url("../../images/movies.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 3px solid black;
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+.proje-4{
+  width: 100%;
+  height: 200px;
+  background-image: url("../../images/pizzasite.png");
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  border: 3px solid black;
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+/*TOP PROJECTS ---- END ----*/
+/*######################################################################*/
+/*######################################################################*/
+/*Button CHECK --- START ---*/
+.about-project{
+  width: 150px;
+}
+/*BUTTON CHECK --- END ---*/
+/*######################################################################*/
+/*######################################################################*/
+/*GITHUB ICO ---- START ----*/
+.icon-content{
+  margin-top: 100px;
+  margin-right: 20px;
+}
+.github-ico{
+  width: 100px;
+  height: 100px;
+  background-image: url('https://github.githubassets.com/images/modules/logos_page/Octocat.png');
+  background-size: cover;
+}
+/*GITHUB ICO ---- END ----*/
+/*######################################################################*/
+/*######################################################################*/
+.main-list-group{
+  display: flex;
+  justify-content: center;
+}
+.list-group{
+  margin-top: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.list-group-item{
+  background-color: rgba(0, 0, 0, 0.10);
+  color: white;
+}
+.list-group-item:hover{
+  background-color: blue;
+  color: white;
+}

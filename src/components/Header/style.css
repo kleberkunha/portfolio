@@ -1,0 +1,35 @@
+@media only screen and (max-width: 600px) {
+  .navbar-collapse{
+    margin-right: 500px !important;
+  }
+}
+
+
+.navbar{
+  background-color: black;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: gray;
+}
+
+.navbar-collapse{
+  display: flex;
+  justify-content: center;
+  margin: 0px !important;
+}
+.navbar-nav{
+  margin-left: 150px;
+}
+.nav a{
+  text-decoration: none;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: blue;
+  width: 100px;
+  margin: 0px 20px;
+}
+.navbar-collapse{
+ margin-right: 500px;
+}

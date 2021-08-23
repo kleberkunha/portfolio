@@ -3,15 +3,12 @@
     margin-right: 500px !important;
   }
 }
-
-
 .navbar{
   background-color: black;
 }
 .navbar-dark .navbar-nav .nav-link {
   color: gray;
 }
-
 .navbar-collapse{
   display: flex;
   justify-content: center;

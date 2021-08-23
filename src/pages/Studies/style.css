@@ -16,15 +16,11 @@
     margin-right: 10px;
   }
 }
-
-
 .main-container-studies {
   border: 1px solid black;
   box-shadow: 0px 0px 5px 5px black;
   background-color: rgba(0, 0, 0, 0.29);
 }
-
-
 .box-items-studies{
   display: flex;
   justify-content: center;

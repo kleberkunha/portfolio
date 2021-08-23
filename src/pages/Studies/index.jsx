@@ -157,7 +157,7 @@ const Studies = () => {
         </div>
         <div className="row mt-5">
           <div className="d-flex justify-content-center">
-            <h3 className="comp-text text-center"></h3>
+            <h3 className="comp-text text-center">.</h3>
           </div>
           <div className="row competances d-flex">
             <div className="left-comp">

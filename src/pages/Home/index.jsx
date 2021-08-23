@@ -1,5 +1,4 @@
 import React from 'react';
-import {CircleProgress} from 'react-gradient-progress'
 import 'react-circular-progressbar/dist/styles.css';
 import './CircularProgress.css';
 import './style.css';
@@ -33,6 +32,12 @@ const Home = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className="teste">
+          <div class="spinner-border text-primary" role="status">
+            <span class="sr-only"></span>
+          </div>
+          <div className="logo-cv"></div>
         </div>
       </div>
     </>

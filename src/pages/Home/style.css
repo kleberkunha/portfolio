@@ -7,11 +7,9 @@
   }
   .title-name{
     margin-top: -250px;
-    font-family: "cursive";
   }
   .title-junior{
     margin-top: -200px;
-    font-family: "cursive";
   }
 }
 body{
@@ -39,14 +37,15 @@ body{
 .Typewriter__cursor{
   display: none;
 }
+.title-name{
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  margin-top: 50px;
+}
 .title-junior{
   font-size: 80px;
   color: rgb(187, 187, 189);
   font-weight: 500;
-}
-.title-name{
-  color: rgb(255, 255, 255);
-  font-size: 40px;
 }
 .main-status{
   display: flex;
@@ -64,3 +63,45 @@ body{
 /*TITLE CSS --- END ---*/
 /*########################################################################*/
 /*########################################################################*/
+
+/*SPINNER*/
+.teste{
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+  height: 200px;
+}
+.spinner-border {
+  width: 150px;
+  height: 150px;
+}
+/**/
+
+/*LOGO CV*/
+.logo-cv{
+  background-image: url('../../images/cv.png');
+  background-position:center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.content-contact{
+display: flex;
+justify-content: flex-end;
+}
+.content-contact ul li{
+  list-style: none;
+  text-align: center;
+}
+.location{
+  background-image: url("../../images/placeholder.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 40px;
+  height: 40px;
+}

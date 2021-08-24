@@ -106,7 +106,6 @@ const Studies = () => {
                       <div class="progress">
                         <div class="progress-bar" role="progressbar" aria-valuenow="70"
                           aria-valuemin="0" aria-valuemax="100">
-                          70%
                         </div>
                       </div>
                     </div>
@@ -115,7 +114,6 @@ const Studies = () => {
                       <div class="progress">
                         <div class="progress-bar reactjs-txt" role="progressbar" aria-valuenow="40"
                           aria-valuemin="0" aria-valuemax="100">
-                          40%
                         </div>
                       </div>
                     </div>
@@ -134,7 +132,6 @@ const Studies = () => {
                       <div class="progress">
                         <div class="progress-bar" role="progressbar" aria-valuenow="70"
                           aria-valuemin="0" aria-valuemax="100">
-                          70%
                         </div>
                       </div>
                     </div>
@@ -143,7 +140,6 @@ const Studies = () => {
                       <div class="progress">
                         <div class="progress-bar ruby-txt" role="progressbar" aria-valuenow="50"
                           aria-valuemin="0" aria-valuemax="100">
-                          50%
                         </div>
                       </div>
                     </div>
@@ -152,7 +148,6 @@ const Studies = () => {
                       <div class="progress">
                         <div class="progress-bar javascript-txt" role="progressbar" aria-valuenow="30"
                           aria-valuemin="0" aria-valuemax="100">
-                          40%
                         </div>
                       </div>
                     </div>

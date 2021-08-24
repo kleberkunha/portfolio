@@ -30,7 +30,7 @@ const Home = () => {
                 <Typewriter onInit={(typewriter)=> { 
                   typewriter
                   .pauseFor(2000)
-                  .typeString("Junior developer")
+                  .typeString("Developer")
                   .start();
                 }}
                 />

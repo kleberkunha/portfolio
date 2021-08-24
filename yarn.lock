@@ -9781,6 +9781,11 @@
   "resolved" "https://registry.npmjs.org/react-error-overlay/-/react-error-overlay-6.0.9.tgz"
   "version" "6.0.9"
 
+"react-favicon@^0.0.23":
+  "integrity" "sha512-szqPlwnTLGTYBB1Zo3AptHr2OM26BOeNQEr1jazgkLfC10wLG4wFcjuBwLLuM7oVnrdk7vDw2FFLIhYKb9/eRQ=="
+  "resolved" "https://registry.npmjs.org/react-favicon/-/react-favicon-0.0.23.tgz"
+  "version" "0.0.23"
+
 "react-gradient-progress@^1.0.3":
   "integrity" "sha512-aEUQ/BxC7OPIqdmR8gSepdwkCA2sPQTnjRHoYO/PtV5Jac7XBVGXRPkhPQNczczc68OhDhCXLt/YAI/eEXzgrw=="
   "resolved" "https://registry.npmjs.org/react-gradient-progress/-/react-gradient-progress-1.0.3.tgz"

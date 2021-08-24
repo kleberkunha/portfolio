@@ -2,7 +2,6 @@ import React from 'react';
 import 'react-circular-progressbar/dist/styles.css';
 import './style.css';
 import './script';
-import {Link} from 'react-router-dom';
 import Typewriter from "typewriter-effect";
 const Home = () => {
   return (

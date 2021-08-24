@@ -3,10 +3,16 @@ import 'react-circular-progressbar/dist/styles.css';
 import './style.css';
 import './script';
 import Typewriter from "typewriter-effect";
+import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <>
       <div className="main-container container">
+        <Link to="/Studies">
+          <div className="arrow-right">
+            <p className="studies-btn">Studies</p>
+          </div>
+        </Link>
         <div className="content-typewriter">
           <div class="container">
             <div class="row">
@@ -38,7 +44,9 @@ const Home = () => {
         <p className="text-center">Do not hesitate to contact me!</p>
         <p className="email text-center text-primary">E-mail: <a onClick={() => window.open("https://mail.google.com/mail/u/0/#inbox")}>hello.kleberkunha@gmail.com</a></p>
         <p className="text-center">Response time : 30min</p>
+
       </div>
+
     </>
   );
 }

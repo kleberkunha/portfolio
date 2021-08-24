@@ -5,6 +5,15 @@
   .main-container{
     height: 812px !important;
   }
+  .arrow-right{
+    visibility: visible !important;
+    margin-left: 88% !important;
+  }
+  .studies-btn{
+    margin-top: 35px;
+    font-size: 12px;
+    margin-right: 10px;
+  }
 
 }
 @media only screen and (max-width: 1024px) {
@@ -12,14 +21,14 @@
     font-size: 40px !important;
   }
   .main-container{
-    height: 812px !important;
+    height: 750px !important;
   }
   .title-name{
     margin-top: -250px;
     font-size: 30px !important;
   }
   .title-junior{
-    margin-top: -175px;
+    margin-top: -105px;
     font-size: 35px !important;
   }
 }
@@ -35,7 +44,7 @@ body{
 .content-typewriter{
   display: flex;
   align-items: flex-end;
-  height: 30%;
+  height: 20%;
 }
 /*########################################################################*/
 /*########################################################################*/
@@ -102,4 +111,20 @@ body{
 
 .email:hover{
   color: rgb(76, 76, 241);
+}
+/*Arrow right*/
+.arrow-right{
+  width: 35px;
+  height: 50px;
+  margin-left: 65%;
+  background-image: url('../../images/right-arrow.png');
+  background-size: contain;
+  position: absolute;
+  background-repeat: no-repeat;
+  visibility: hidden;
+}
+.studies-btn{
+  margin-top: 30px;
+  font-size: 12px;
+  margin-left: -5px;
 }

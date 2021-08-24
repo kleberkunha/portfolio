@@ -1,11 +1,17 @@
 import React from 'react';
 import './project.css';
+import { Link } from 'react-router-dom';
 
 const Projects = () => {
 
   return (
     <>
       <div className="main-container-project container">
+        <Link to="/Studies">
+          <div className="arrow-left-home">
+            <p className="home-btn">Studies</p>
+          </div>
+        </Link>
         <div class="container">
           <div class="row top-content-projects">
           <div class="col">

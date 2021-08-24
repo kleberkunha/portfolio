@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css';
+import './Studies.css';
 import handleClick42 from './clicks/click42';
 import handleClickB7web from './clicks/clickB7';
 import handleClickCvideo from './clicks/clickCvideo';
@@ -8,10 +8,22 @@ import go42 from './clicks/go42';
 import gothp from './clicks/gothp';
 import gob7 from './clicks/gob7';
 import govideo from './clicks/govideo';
+import { Link } from 'react-router-dom';
+
 const Studies = () => {
   return (
     <>
       <div className="main-container-studies container">
+        <Link to="/Projects">
+          <div className="arrow-right-projects">
+            <p className="projects-btn">Projects</p>
+          </div>
+        </Link>
+        <Link to="/">
+          <div className="arrow-left-home">
+            <p className="home-btn">Home</p>
+          </div>
+        </Link>
         <div className="container">
           <div className="row">
             <div className="col-sm text-center">

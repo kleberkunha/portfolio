@@ -5,11 +5,16 @@
   }
   .navbar-nav {
     margin-left: 0px !important;
-    margin-right: 250px !important;
+    margin-right: 10px !important;
   }
   .navbar-nav a{
     display: flex;
     justify-content: center;
+  }
+  .text-available{
+    margin-top: -300px;
+    margin-left: 140px;
+    margin-right: 0px;
   }
 }
 .navbar{

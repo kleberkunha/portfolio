@@ -5,12 +5,7 @@
   .main-container{
     height: 812px !important;
   }
-  .title-name{
-    margin-top: -250px;
-  }
-  .title-junior{
-    margin-top: -175px;
-  }
+
 }
 @media only screen and (max-width: 1024px) {
   .title-junior{
@@ -21,9 +16,11 @@
   }
   .title-name{
     margin-top: -250px;
+    font-size: 30px !important;
   }
   .title-junior{
     margin-top: -175px;
+    font-size: 35px !important;
   }
 }
 body{

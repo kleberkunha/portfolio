@@ -19,7 +19,7 @@ const Header = () =>  {
               <Link to="/projects"><h5>Projects</h5></Link>
             </Nav>
           </Navbar.Collapse>
-          <div className="text-center d-flex">Status :&nbsp; Available <div className="available border"></div></div>
+          <div className="text-center text-available d-flex">Status :&nbsp; Available <div className="available border"></div></div>
         </Container>
       </Navbar>
     </HeaderArea>

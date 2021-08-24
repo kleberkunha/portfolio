@@ -53,6 +53,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
+          <p className="text-center mt-3 text-warning">The images used in the projects were not treated for performance, but keeping the performance of the website over 65%</p>
           <div class="row ">
             <div class="col icon-content d-flex justify-content-center">
               <div className="github-ico"></div>

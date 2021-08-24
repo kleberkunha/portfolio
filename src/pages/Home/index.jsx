@@ -33,10 +33,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="teste">
-          <div class="spinner-border text-primary" role="status">
-            <span class="sr-only"></span>
-          </div>
+        <div className="cv">
           <div className="logo-cv"></div>
         </div>
         <p className="text-center">Do not hesitate to contact me!</p>

@@ -72,10 +72,10 @@ body{
 /*########################################################################*/
 
 /*SPINNER*/
-.teste{
+.cv{
   display: flex;
   justify-content: center;
-  margin-top: 120px;
+  margin-top: 30px;
   height: 200px;
 }
 .spinner-border {

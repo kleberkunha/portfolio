@@ -9,7 +9,7 @@
     margin-top: 15px;
   }
   .icon-content{
-    margin-top: 0px;
+    margin-top: 85px !important;
   }
   .github-ico{
     margin-top: -50px;
@@ -48,8 +48,9 @@
   font-size: 17px;
 }
 .top-content-projects{
-  margin-top: 50px;
+  margin-top: 0px;
 }
+
 .proje-1{
   width: 100%;
   height: 200px;
@@ -62,12 +63,12 @@
   justify-content: flex-end;
   overflow: hidden;
 }
-.proje-2{
+.proje-gossip{
   width: 100%;
   height: 200px;
-  background-image: url("../../images/catshop.png");
+  background-image: url("../../images/gossip.png");
   background-size: cover;
-  background-position: center;
+  background-position: right;
   background-repeat: no-repeat;
   border: 3px solid black;
   display: flex;
@@ -110,7 +111,7 @@
 /*######################################################################*/
 /*GITHUB ICO ---- START ----*/
 .icon-content{
-  margin-top: 100px;
+  margin-top: 50px;
   margin-right: 20px;
 }
 .github-ico{
@@ -118,6 +119,9 @@
   height: 100px;
   background-image: url('https://github.githubassets.com/images/modules/logos_page/Octocat.png');
   background-size: cover;
+}
+.other-project{
+  font-size: 25px;
 }
 /*GITHUB ICO ---- END ----*/
 /*######################################################################*/
@@ -139,4 +143,78 @@
 .list-group-item:hover{
   background-color: blue;
   color: white;
+}
+/*Others Projects*/
+
+.proje-kitten{
+  width: 100%;
+  height: 200px;
+  background-image: url("../../images/catshop.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 3px solid black;
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+.proje-doc{
+  width: 100%;
+  height: 200px;
+  background-image: url("../../images/doc.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 3px solid black;
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+.proje-starbucks{
+  width: 100%;
+  height: 200px;
+  background-image: url("../../images/starbucks.png");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  border: 3px solid black;
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+.proje-day-night{
+  width: 100%;
+  height: 200px;
+  background-image: url("../../images/dn.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 3px solid black;
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+.proje-noteblock{
+  width: 100%;
+  height: 200px;
+  background-image: url("../../images/noteb.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 3px solid black;
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+.proje-vote{
+  width: 100%;
+  height: 200px;
+  background-image: url("../../images/vote.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 3px solid black;
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
 }

@@ -66,6 +66,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   z-index: 1;
+  cursor: pointer;
 }
 .img-42:hover{
   border: 3px solid blue;
@@ -78,6 +79,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   z-index: 1;
+  cursor: pointer;
 }
 .img-curso-em-video:hover{
   border: 3px solid blue;
@@ -90,6 +92,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   z-index: 1;
+  cursor: pointer;
 }
 .img-thp:hover{
   border: 3px solid blue;
@@ -102,6 +105,7 @@
   background-size: 69%;
   background-repeat: no-repeat;
   z-index: 1;
+  cursor: pointer;
 }
 .img-b7-web:hover{
   border: 3px solid blue;
@@ -135,9 +139,9 @@
   transition:all 0.1s ease-in-out;
 }
 .html{
-  width: 50px;
+  width: 40px;
   height: 50px;
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png');
+  background-image: url('../../images/html.png');
   background-position:center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -145,7 +149,7 @@
 .css{
   width: 50px;
   height: 50px;
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png');
+  background-image: url('https://img.icons8.com/color/452/css3.png');
   background-position:center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -159,7 +163,7 @@
   background-repeat: no-repeat;
 }
 .js{
-  width: 50px;
+  width: 40px;
   height: 50px;
   background-image: url('https://www.seekpng.com/png/full/80-803501_javascript-logo-logo-de-java-script-png.png');
   background-position:center;
@@ -167,7 +171,7 @@
   background-repeat: no-repeat;
 }
 .git{
-  width: 50px;
+  width: 40px;
   height: 50px;
   background-image: url('https://iconape.com/wp-content/png_logo_vector/git-icon.png');
   background-position:center;
@@ -175,7 +179,7 @@
   background-repeat: no-repeat;
 }
 .reactjs{
-  width: 50px;
+  width: 40px;
   height: 50px;
   background-image: url('https://ionicframework.com/docs/assets/icons/logo-react-icon.png');
   background-position:center;
@@ -191,7 +195,7 @@
   background-repeat: no-repeat;
 }
 .rails{
-  width: 50px;
+  width: 40px;
   height: 50px;
   background-image: url('https://www.imagile.fr/wp-content/uploads/2017/12/logo-ror-300x300.png');
   background-position:center;
@@ -199,8 +203,8 @@
   background-repeat: no-repeat;
 }
 .postman{
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
   background-image: url('https://res.cloudinary.com/postman/image/upload/t_team_logo/v1/team/2893aede23f01bfcbd2319326bc96a6ed0524eba759745ed6d73405a3a8b67a8');
   background-position:center;
   background-size: cover;

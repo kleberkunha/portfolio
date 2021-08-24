@@ -4,6 +4,10 @@ import handleClick42 from './clicks/click42';
 import handleClickB7web from './clicks/clickB7';
 import handleClickCvideo from './clicks/clickCvideo';
 import handleClickThp from './clicks/clickTHP';
+import go42 from './clicks/go42';
+import gothp from './clicks/gothp';
+import gob7 from './clicks/gob7';
+import govideo from './clicks/govideo';
 const Studies = () => {
   return (
     <>
@@ -15,7 +19,7 @@ const Studies = () => {
                 <div className="boxes-school-infos ">
                   <div className="main-box-ico42 text-center">
                     <div className="d-flex justify-content-center">
-                      <div className="img-42 rounded-circle"></div>
+                      <div className="img-42 rounded-circle " onClick={go42}></div>
                     </div>
                     <button onClick={handleClick42} className="about btn btn-primary mt-2">About</button>
                   </div>
@@ -28,7 +32,7 @@ const Studies = () => {
                 <div className="boxes-school-infos ">
                   <div className="main-box-ico42 text-center">
                     <div className="d-flex justify-content-center">
-                      <div className="img-thp rounded-circle"></div>
+                      <div className="img-thp rounded-circle" onClick={gothp}></div>
                     </div>
                     <button onClick={handleClickThp} className="about btn btn-primary mt-2">About</button>
                   </div>
@@ -41,7 +45,7 @@ const Studies = () => {
                 <div className="boxes-school-infos ">
                   <div className="main-box-ico42 text-center">
                     <div className="sub-main-icob7 d-flex justify-content-center bg-dark">
-                      <div className="img-b7-web rounded-circle"></div>
+                      <div className="img-b7-web rounded-circle" onClick={gob7}></div>
                     </div>
                     <button onClick={handleClickB7web} className="about btn btn-primary mt-2">About</button>
                   </div>
@@ -54,7 +58,7 @@ const Studies = () => {
                 <div className="boxes-school-infos ">
                   <div className="main-box-ico42 text-center">
                     <div className="d-flex justify-content-center">
-                      <div className="img-curso-em-video rounded-circle"></div>
+                      <div className="img-curso-em-video rounded-circle" onClick={govideo}></div>
                     </div>
                     <button onClick={handleClickCvideo} className="about btn btn-primary mt-2">About</button>
                   </div>
@@ -135,15 +139,6 @@ const Studies = () => {
                       <h5>JAVASCRIPT</h5>
                       <div class="progress">
                         <div class="progress-bar javascript-txt" role="progressbar" aria-valuenow="30"
-                          aria-valuemin="0" aria-valuemax="100">
-                          40%
-                        </div>
-                      </div>
-                    </div>
-                    <div>
-                      <h5>NodeJs</h5>
-                      <div class="progress">
-                        <div class="progress-bar reactjs-txt" role="progressbar" aria-valuenow="40"
                           aria-valuemin="0" aria-valuemax="100">
                           40%
                         </div>

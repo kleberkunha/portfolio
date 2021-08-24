@@ -28,5 +28,4 @@ const handleClick42 = () => {
     }
   }
 }
-
 export default handleClick42;

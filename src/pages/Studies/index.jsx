@@ -176,7 +176,7 @@ const Studies = () => {
                       <ul>
                         <li className="item txt-1">Format and Reinstall - Windows / Ubuntu</li>
                         <li className="item txt-2">Data Recovery  - Hard DIsk / Pendriver / SD card</li>
-                        <li className="item txt-3">Broke/Rapair - All parts</li>
+                        <li className="item txt-3">Broken/Rapair - All parts</li>
                         <li className="item txt-4">Network cable crimp - RJ45 A/B</li>
                       </ul>
                     </div>

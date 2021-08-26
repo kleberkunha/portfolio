@@ -15,7 +15,8 @@ const handleClickCvideo = () => {
       aboutCvideo[i].style.padding ="10px";
       aboutCvideo[i].style.marginTop ="-20px";
       aboutCvideo[i].style.overflow ="scroll";
-      aboutCvideo[i].innerHTML = "Cursos em video is a teaching platform that provides complete video courses on programming: website creation with HTML5 / CSS3, programming logic, PHP, Java, Database, Object-oriented programming.This platform offers online certificates.";
+      aboutCvideo[i].innerHTML = `Cursos em video is a teaching platform with complete video courses on programming.
+       It provides certificates. HTML, CSS, Javascript, Object oriented programming.`;
       break;
     }
     else if (aboutCvideo[i].style.width === "280px"){

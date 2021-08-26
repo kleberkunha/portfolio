@@ -15,7 +15,7 @@ const handleClick42 = () => {
       about42[i].style.padding ="10px";
       about42[i].style.marginTop ="-20px";
       about42[i].style.overflow ="scroll";
-      about42[i].innerHTML = "School 42 is based on peer-to-peer learning: no lessons, no teachers. For a month, I took part in the swimming pool test: an intense period of 4 weeks where we do group projects, individual projects and exams. Shell language, programming in C, the basics of the algorithm.";
+      about42[i].innerHTML = "School 42 is based on peer-to-peer learning: I was preselected for one intensive month of projects and exams. Shell, language C#,  algorithms.";
       break;
     }
     else if (about42[i].style.width === "250px"){

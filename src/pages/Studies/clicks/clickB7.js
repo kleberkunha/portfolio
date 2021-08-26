@@ -15,7 +15,7 @@ const handleClickB7web = () => {
       aboutB7web[i].style.padding ="10px";
       aboutB7web[i].style.marginTop ="-20px";
       aboutB7web[i].style.overflow ="scroll";
-      aboutB7web[i].innerHTML = "B7web is a course online of code from zero to profissional, having all the code languages ​​below and more, videos, exercises end projects.";
+      aboutB7web[i].innerHTML = `B7web is online courses on FullStack programming. It provides certificates.`;
       break;
     }
     else if (aboutB7web[i].style.width === "300px"){

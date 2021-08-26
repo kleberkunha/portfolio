@@ -39,10 +39,10 @@ const Home = () => {
           </div>
         </div>
         <div className="cv">
-          <div className="logo-cv"></div>
+          <div className="logo-cv" onClick={() => window.open("https://drive.google.com/file/d/1M5PgWbjwAVB47f9HIkZqnB4UiDWPEeGY/view?usp=sharing")}></div>
         </div>
         <p className="text-center">Do not hesitate to contact me!</p>
-        <p className="email text-center text-primary">E-mail: <a onClick={() => window.open("https://mail.google.com/mail/u/0/#inbox")}>hello.kleberkunha@gmail.com</a></p>
+        <p className="email text-center text-primary" onClick={() => window.open("https://mail.google.com/mail/u/0/#inbox")}>E-mail: hello.kleberkunha@gmail.com</p>
         <p className="text-center">Response time : 30min</p>
 
       </div>
